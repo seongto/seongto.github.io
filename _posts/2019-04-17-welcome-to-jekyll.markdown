@@ -1,25 +1,46 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "TIL-01 : 블로그 설치, 그리고..."
 date:   2019-04-17 09:18:51 +0900
-categories: jekyll update
+categories: Today I Learned
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+## Jekyll blog 셋업하다.
 
-Jekyll also offers powerful support for code snippets:
+이번 주는 월요일부터 많은 일들이 있었다. 휘몰아치는 폭풍 속에서 정신을 집중하는 것은 꽤 어려웠다.
+PT준비와 더불어 이런저런 업무들도 해결해야 했고, 미팅도 있었다.
+결국 다른 분들과 비교하여 하루 정도 진행상황이 늦어졌다.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+하지만 그 와중에도 월요일(4.15)과 화요일(4.16)은 쉬이 지나칠 수 없었다.
+그냥 하라는대로만 하기엔 너무나 중요하다고 생각되는 내용이었고,
+이해하고 숙달이 되고 싶은 마음이 강했다.
+주로 공부를 늦은 시간에 하다보니 막혔을 때 도움받는 것도 어려웠다.
+google은 나의 친구지만 왠지 이 친구... 오늘따라 뭔소리하는지 이해하기 힘들었다.
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+파고들며 공부하는 가운데에 외우고 알아야할 명령어들이 쌓여가는 것을 느꼈고,
+이것들이 언제 익숙해질까라는 걱정도 들었다. 빨리 익숙해져야 할텐데...
+자주 쓰는 명령어들은 토요일에 따로 정리해서 포스팅해두어야겠다고 다짐하였다.
+[리눅스 명령어 모음](https://www.mireene.com/webimg/linux_tip1.htm)
+[vim cheat seat](https://vim.rtorr.com/lang/ko)
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+어쨋건 아직 CSS도 기본 HTML도... 아무런 테마도 적용하지 못하였지만...
+어쨋건 Jekyll 블로그 설치는 완료하였고, 뭐라도 끄적여 본다.
+
+
+## Dot file 관리
+
+지난 밤에 혼자 닷파일 관련 과제를 진행하며 혼란스러웠다.
+닷파일들은 분명히 git을 통해 관리하고 어느 컴퓨터에 가서든 연동시킬 수 있어야 하는데...
+아무런 추가 설명없이 github에 올리라는 말을 듣고...
+`symlink` 개념을 모르던 나는...
+
+#### `$HOME`에 `init git` 을 해버렸다!!!
+
+덕분에 오늘 많은 공부를 할 수 있었지...
+처음에 은우님이 알려주신 링크방식을 사용하였었는데, .vimrc 에서 에러가 생겼다.
+그래서 열심히 팠다. 수업 진도는 왜 안나가시냐는 은우님의 질타를 받으며...
+열심히 구글링을 했고, symlink 를 알게 되고 이 [블로그](http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/)의 방법을 적용하여 매우 편하게 닷파일을 관리할 수 있게 되었다.
+스크립트 실행만 하면 자동으로 `$HOME`에 링크파일이 생기는 기적!!!
+
+shell 언어의 편린을 조금이나마 맛보며 공부할 수 있는 좋은 시간이었다.
+블로그 치장은 토요일에 해야지...
