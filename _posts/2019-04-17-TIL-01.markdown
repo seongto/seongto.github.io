@@ -2,7 +2,7 @@
 layout: post
 title:  "TIL-01 : 블로그 설치, 그리고..."
 date:   2019-04-17 09:18:51 +0900
-categories: Today I Learned
+categories: TIL
 ---
 
 ## Jekyll blog 셋업하다.
