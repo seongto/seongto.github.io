@@ -6,9 +6,6 @@ categories: TIL
 ---
 
 
-# Today I learned...04 ##
-
-
 ## python...3
 
 아직도 파이썬이 끝나지 않았기에.. 어제 repl이 나에게 선사한 빅엿으로 인해 딜레이된 시간만큼 난 오늘도 파이썬을 하고 있다. repl 은 refresh please의 약자였나보다... 후...

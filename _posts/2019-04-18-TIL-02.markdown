@@ -6,9 +6,6 @@ categories: TIL
 ---
 
 
-# Today I learned... 02
-
-
 ## 코드카타를 github에 푸쉬!
 
 코드카타를 올린 레포에 콜레보레이터를 지정해달라는 예리님의 말씀을 듣고,  
