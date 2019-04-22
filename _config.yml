@@ -18,7 +18,7 @@ email: imseongto@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   개발을 배우며, 아이디어를 실현시키기 위한 앱을 개발하고 있습니다.
   무언가 멋진 것을 만들어 이 세상을 더 멋지게 만들고자 합니다.
-  Thanks to \#wecode, we can make something AWESOME!
+  Thanks to wecode, we can make something AWESOME!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ""
